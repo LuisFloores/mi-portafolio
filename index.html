@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <meta name="description" content="Bienvenido a mi sitio, conoce mi trabajo.">
+    <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon">
+    <meta name="keywords" content="portafolio, ux, ui, diseño web, UI/UI">
+    <!-- Enlaces css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Enlaces js -->
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body class="animate__animated animate__fadeIn">
+
+    <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary fixed-top" aria-label="Offcanvas navbar large">
+        
+        <div class="container">
+            <!-- Contiene el logo y el botón de hamburguesa-->
+            <a href="index.html"><img src="assets/logo.svg" alt="logo" class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contiene las opciones del menú -->
+            <div class="offcanvas offcanvas-end text-bg-tertiary" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+
+                <!-- El título y botón de cerrar del menú en dispositivos pequeños -->
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menú</h5>
+                    <button type="button" class="btn-close btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <!-- Enlaces del menú -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#experience" class="nav-link">Experiencia</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Proyectos</a></li>
+                    </ul>    
+                </div>
+            </div>            
+
+        </div>
+
+    </nav>
+
+    <main id="hero" class="bg-body-tertiary">
+
+        <div id="hero-content" class="container">
+
+            <div id="hero-container" class="row">
+
+                <div id="hero-text" class="col-12 col-xl-6">
+                    <h1 class="text-white">¡Hola, soy Luis!<br>Bienvenido a mi portafolio</h1>
+                    <p class="text-white">Soy un entusiasta del diseño UX/UI, el Marketing y la Consultoría empresarial.</p>
+                    <p class="text-white">Mi pasión es mejorar los procesos de trabajo en la creación de proyectos, buscando siempre soluciones creativas y efectivas.</p>
+
+                    <div id="hero-buttons">
+                        <a href="assets/CV.pdf" target="_blank"><button type="button" class="btn btn-secondary">Descarga mi CV</button></a>
+                        <a href="#projects"><button type="button" class="btn btn-primary">Mis proyectos</button></a>
+                    </div>
+
+                </div>
+    
+                <div class="col-12 col-xl-6">
+                    <img id="hero-image" src="assets/habilidades.webp" alt="imagen de portada">
+                </div>
+                    
+            </div>
+
+        </div>
+
+    </main>
+
+    <section id="experience" class="bg-body-tertiary">
+
+        <div id="work-experience" class="container">
+            <i class="bi bi-briefcase-fill h1 text-white"></i>
+            <h2 class="text-white">Experiencia laboral</h2>
+            <div class="row">
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white">Diseñador UX/UI 05/2023, Actualidad</h6>
+                    <p class="text-white">PharosPayments, Ciudad de México</p>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white">Diseñador UX/UI 05/2023, Actualidad</h6>
+                    <p class="text-white">INNCOL, Puebla</p>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white">Diseñador UX/UI 04/2021, 04/2023</h6>
+                    <p class="text-white">Grupo ARCA, Hidalgo</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="academic-experience" class="container">
+            <i class="bi bi-mortarboard-fill h1 text-white"></i>
+            <h2 class="text-white">Experiencia académica</h2>
+            <div class="row">
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white">Ing. Desarrollo e Innovación Empresarial, 2020</h6>
+                    <p class="text-white">UTEC de Tulancingo</p>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white"> Certificación ECO305 (Atención a Clientes)</h6>
+                    <p class="text-white">CONOCER</p>
+                </div>
+                <div class="col-12 col-xl-4">
+                    <h6 class="text-white">Curso “Project Management”</h6>
+                    <p class="text-white">UTEC de Tulancingo y Alstom</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects" class="bg-body-tertiary">
+
+        <div class="container projects-container">
+
+            <div class="project-title">
+                <h2>Mi portafolio</h2>
+                <p>Conoce los proyectos en los que he trabajado, dándote una pequeña descripción y muestra del resultado final.</p>
+            </div>
+    
+            <div id="projects-cards" class="row row-cols-1 row-cols-md-3 g-4">
+    
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/projects/project-myapp.webp" class="card-img-top" alt="My App (Website)">
+                        <div class="card-body">
+                          <h5 class="card-title">My App (Website)</h5>
+                          <p class="card-text">Se realizó el diseño del sitio web de My App, una plataforma SaaS para la generación de tiendas en línea.</p>
+                          <a href="pages/myapp-webiste.html"><button class="btn btn-primary">Ver proyecto</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/projects/project-tonanzin.webp" class="card-img-top" alt="Tonanzin">
+                        <div class="card-body">
+                          <h5 class="card-title">Tonanzin</h5>
+                          <p class="card-text">Se ha desarrollado un plan de negocios para Tonanzin, una iniciativa educativa en búsqueda de capitalización.</p>
+                          <a href="pages/tonanzin.html"><button class="btn btn-primary">Ver proyecto</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/projects/project-arca.webp" class="card-img-top" alt="Grupo Arca">
+                        <div class="card-body">
+                          <h5 class="card-title">Grupo ARCA</h5>
+                          <p class="card-text">La página de presentación de Grupo ARCA, une empresa tecnológica la cual trabaja en diferentes proyectos.</p>
+                          <a href="pages/arca-webiste.html"><button class="btn btn-primary">Ver proyecto</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p class="text-white">Buscando simplificar la experiencia de usuario.</p>
+        <div class="social-media">
+            <a target="_blank" href="https://wa.link/akc78q"><img src="assets/Teléfono.svg" alt="Número de celular"></a>
+            <a target="_blank" href="mailto:luisgonzalez111298@gmail.com"><img src="assets/Correo electrónico.svg" alt="Correo electrónico"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jose-luis-flores-gonzalez/"><img src="assets/Linkedin.svg" alt="Linkedin"></a>
+        </div>
+    </footer>
+
+</body>
+</html>

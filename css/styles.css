@@ -1,0 +1,97 @@
+/*Los estilos scss de bootstrap fueron modificados con SAAS desde el documento _variables.scss*/
+/*Estilos del hero*/
+#hero{
+    padding-top: 5rem;
+}
+
+#hero-content{
+    border-radius: 2.5rem;
+    background: var(--BG, linear-gradient(135deg, #1D1F1E -0.44%, #303954 101.07%));
+}
+
+#hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+}
+
+#hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#hero-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+#hero-image{
+    max-width: 100%;
+}
+
+/*Estilos de la sección de experiencia*/
+#experience{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    gap: 2.5rem;
+}
+
+#work-experience{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 2.5rem;
+    background: var(--primary-color, #7749F8);
+    padding: 4rem 4rem;
+    text-align: center;
+}
+
+#academic-experience{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 2.5rem;
+    background: var(--secondary-color, #6C757D);
+    padding: 4rem 4rem;
+    text-align: center;
+}
+
+/*Estilos de la sección de proyectos*/
+#projects{
+    padding-top: 5rem;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.project-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+/*Estilos del footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #1D1F1E -0.44%, #303954 101.07%);
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
